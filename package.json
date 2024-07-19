@@ -1,0 +1,25 @@
+{
+  "name": "osu-multiplayer-bot",
+  "description": "Multiplayer bot for osu! written in nodejs",
+  "version": "1.0.0",
+  "author": "Kasuga <kasu-ga@outlook.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasu-ga/osu-multiplayer-bot.git"
+  },
+  "scripts": {
+    "dev": "bun --watch run src/index.ts",
+    "build": "bun run src/build.ts"
+  },
+  "dependencies": {
+    "@types/bun": "latest",
+    "@types/fs-extra": "^11.0.4",
+    "adm-zip": "^0.5.14",
+    "fs-extra": "^11.2.0",
+    "osu-ahr": "^1.0.4",
+    "simple-log-messages": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/adm-zip": "^0.5.5"
+  }
+}
